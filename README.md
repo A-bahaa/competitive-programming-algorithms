@@ -18,3 +18,4 @@ Documenting the Algorithms and techniques I learn for competitive programming co
  ### Union-Find Disjoint Sets
  ### MST
  ### Dijkstra
+     ![](media/Dijkstra_Animation.gif)
