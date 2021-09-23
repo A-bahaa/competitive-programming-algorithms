@@ -13,7 +13,7 @@ map<int,int>path;
 int dijkstra (int src , int tar){
     vi dis(n,OO);
     priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>>q;
-    //the cost to reach the src node is 0
+    //the cost to reach the src node is 0 unless said otherwise
     dis[src]=0;
     q.push({0,src});
     while(!q.empty()){
@@ -21,11 +21,11 @@ int dijkstra (int src , int tar){
         int u=q.top().second;
         int c=q.top().first;
         //trcing
-        cout<<"now at "<<u+1<<" that hast cost "<<c<<" and its value in the dis arra "<<dis[u]<<'\n';
+        cout<<"now at "<<u+1<<" that has cost "<<c<<" and its value in the dis array "<<dis[u]<<'\n';
         q.pop();
         if(u==tar)
             return c;
-        //if the cost of the current node not equal it's value in the dis array , that's mean we've already reached that node with a shorter pass we'll skip that pair .
+        //if the cost of the current node not equal it's value in the dis array , that's mean we've already reached that node with a shorter path se we'll skip that pair .
         //if we removed that condition , it wouldn't affect the answer but would affect the time .
         if(c!=dis[u]){
             //trcing
@@ -93,30 +93,3 @@ int main(){
     return 0; 
 
 }
-
-
-
-
-
-
-//discussion
-
-/*
-Dijkstra is a single-source-shortest-pass (sssp) algorithm for graphs with non negative edge weights . 
-
-the time complexity is O(E*log(v)) - depending on the implementation - 
-
-1
-5 6
-1 3 1
-1 2 5
-3 2 3
-3 4 2
-4 2 10
-2 5 2
-1 5
-
-
-*/
-
-
