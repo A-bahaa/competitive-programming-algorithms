@@ -18,4 +18,4 @@ Documenting the Algorithms and techniques I learn for competitive programming co
  ### Union-Find Disjoint Sets
  ### MST
  ### Dijkstra
-     ![]https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/media/Dijkstra_Animation.gif)
+     ![Dijkstra_Animation](https://user-images.githubusercontent.com/65967989/134576562-49b6f01a-823d-448a-8245-d48122c8bd52.gif)
