@@ -9,6 +9,7 @@ Documenting the Algorithms and techniques I learn for competitive programming co
  - [Union-Find Disjoint Sets](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/dsu.cpp)
  - [MST](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/mst.cpp)
  - [Dijkstra](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/dijkstra.cpp)
+ - [Bellman-Ford](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/bellman.cpp)
 
 ## Discussion
 
