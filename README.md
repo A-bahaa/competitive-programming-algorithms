@@ -44,7 +44,7 @@ In the graph below , there's no negative cycles but that **negative edge** betwe
 **In undirected graphs** , the existence of only one negative edge is enough to have a negative cycle .
 
 **why we relax each edge `n-1` times ?** First of all that's is the maximum number of relaxation to each edge .. we could terminate after the first,sec,third.....n-1 relaxation phase through the stop-early optmization .. the number of relaxation phases needed depends on the order of processing the edges and at the worst case we'll need n-1 phase .. for example , the graph below if the order of processing the edges was from right to left , then after the first phase only the first edge with weight `11` will be relaxed and after the second phase , the new relaxed edge will be the second edge with weight `1` so that's one edge per phase rate and since the SPT of `n` nodes contains `n-1` edges hence the `n-1` phases as our maximum .  
-![bellman2](https://user-images.githubusercontent.com/65967989/134765339-5c332849-c52e-408f-9779-800c9c195ed8.jpg)
+![KttPRgExNJERhSbX](https://user-images.githubusercontent.com/65967989/134767433-8c08d669-d9e4-4a0d-804a-544dfdafedd7.png)
 
 
 
