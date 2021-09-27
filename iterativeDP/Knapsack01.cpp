@@ -43,7 +43,7 @@ int main(){
     
     cout<<T[nEle][maxW]<<'\n';
 
-    // getting the optimal set 
+    // getting the optimal subset 
     int i = nEle , j = maxW ;
     while(T[i][j] != 0){
         if(T[i][j] != T[i-1][j]){
