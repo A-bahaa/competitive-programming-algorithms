@@ -10,6 +10,7 @@ Documenting the Algorithms and techniques I learn for competitive programming co
  - [MST](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/mst.cpp)
  - [Dijkstra](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/dijkstra.cpp) [Discussion](https://github.com/A-bahaa/competitive-programming-algorithms#dijkstra)
  - [Bellman-Ford](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/bellman.cpp)
+ - [IterativeDP](https://github.com/A-bahaa/competitive-programming-algorithms/tree/main/iterativeDP) [Discussion](https://github.com/A-bahaa/competitive-programming-algorithms#IterativeDP)
 
 ## Discussion
 
