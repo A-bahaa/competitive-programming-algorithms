@@ -25,13 +25,7 @@ int main(){
     //every cell (i , j) in this Table will hold the answer of the sub problem that is described by "if I have i elements and maximum weight of j what is the maximum value can I optain ?" .. the answers of these  subproblems will be used while looping the Table till we reach the original/desired problem "if I have nEle elements and maximum weight of maxW what is the maximum value can I optain ?" and the final answer is in the cell (nEle , maxW) .
     vector<vector<int>>T(nEle+1,vector<int>(maxW+1,0));
 
-    /* for(auto p : ele){
-        cout<<p.first<<' '<<p.second<<' ';
-    } */
-    /* for(auto v:T){
-        for(auto i:v)cout<<i<<' ';
-        cout<<'\n';
-    } */
+    
     for(int i = 1; i<=nEle; i++){
         for(int j = 1; j<=maxW; j++){
             // if the current weight can't hold the new item of this row , then we skip it so the proplem transformed to be "if I have i-1 elements and maximum weight of j what is the maximum value can I optain ?" and the answer for that is in the cell above the current location . 
@@ -46,10 +40,7 @@ int main(){
             }
         }
     }
-    /* for(auto v:T){
-        for(auto i:v)cout<<i<<' ';
-        cout<<'\n';
-    } */
+    
     cout<<T[nEle][maxW]<<'\n';
 
     // getting the optimal set 
@@ -69,21 +60,5 @@ int main(){
 
     return 0;
 }
-/*
-max  ele
-34   5
-34  5
-178 12
-30 1
-13 7
-34 8
-87 6
 
-
-7 4 
-1 1
-4 5
-3 4
-5 7
-*/
 
