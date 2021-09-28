@@ -48,7 +48,7 @@ In the graph below , there's no negative cycles but that **negative edge** betwe
 ![KttPRgExNJERhSbX](https://user-images.githubusercontent.com/65967989/134767433-8c08d669-d9e4-4a0d-804a-544dfdafedd7.png)
 ### IterativeDP 
 - [ ] knapsak hard
-- [ ] knapsak multiple time to choose a bag allowed
+- [ ] knapsak multiple time to choose a bag allowed aka unbounded knapsak
 
 
 
