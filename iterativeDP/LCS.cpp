@@ -21,9 +21,13 @@ int main (){
     vector<vector<int>>T(s1.size(),vector<int>(s2.size(),0));
     for(int i = 1; i<s1.size(); i++){
         for(int j = 1; j<s2.size(); j++){
+            // if the two characters match , we know for sure that we've a common-
+            // subsequence of lenght 1 .. hence the total answer is 1 + the answer if we deleted both characters 
+            //which is memorized in the cell T[i-1][j-1] 
             if(s1[i]==s2[j]){
                 T[i][j] = 1 + T[i-1][j-1];
             }
+            //if they don't match we try deleting each character and maximizing between the two answers yielded in these two scenarios
             else{
                 T[i][j] = max(T[i-1][j],T[i][j-1]);
             }
