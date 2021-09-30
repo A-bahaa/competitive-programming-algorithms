@@ -2,6 +2,7 @@
  - [0/1 Knapsack](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/iterativeDP/Knapsack01.cpp) 
  - [Coin Change 1](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/iterativeDP/coinChange1.cpp)
  - [Coin Change 2](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/iterativeDP/coinChange2.cpp)
+ - [Longest Commomn Subsequence (LCS)](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/iterativeDP/LCS.cpp)
 
 ## 0/1 Knapsack
 ![knapsakdp](https://user-images.githubusercontent.com/65967989/135391517-a4f99e85-e0a4-444d-b8fa-00f781575c74.jpg)
@@ -22,4 +23,10 @@
 
 ### Resources
 - https://www.youtube.com/watch?v=_fgjrs570YE&t=313s
+
+## LCS
+![(309) Longest Co](https://user-images.githubusercontent.com/65967989/135411207-b4ceb618-7a58-4348-9806-c169dfeb7ac0.png)
+
+### Resources
+- https://www.youtube.com/watch?v=NnD96abizww
 
