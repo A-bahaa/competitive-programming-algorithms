@@ -2,7 +2,8 @@
  - [0/1 Knapsack](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/iterativeDP/Knapsack01.cpp) 
  - [Coin Change 1](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/iterativeDP/coinChange1.cpp)
  - [Coin Change 2](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/iterativeDP/coinChange2.cpp)
- - [Longest Commomn Subsequence (LCS)](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/iterativeDP/LCS.cpp)
+ - [Longest Common Subsequence (LCS)](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/iterativeDP/LCS.cpp)
+ - [Longest Common Substring](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/iterativeDP/LCsubstring.cpp)
 
 ## 0/1 Knapsack
 ![knapsakdp](https://user-images.githubusercontent.com/65967989/135391517-a4f99e85-e0a4-444d-b8fa-00f781575c74.jpg)
@@ -29,4 +30,10 @@
 
 ### Resources
 - https://www.youtube.com/watch?v=NnD96abizww
+## Longest Common Substring
+![Inked(309) Longest co (1)_LI](https://user-images.githubusercontent.com/65967989/135425924-c034d2e5-65c2-4911-bb31-c16ea84491de.jpg)
 
+**It's very simmilar** to the LCS problem instead here we only increasing the cells when only ther's a match between the ith and the jth characters , the common substrings would be found in a diagonal shape in the dp table . Note also that the answer isn't present in the `T[n][m]` cell , so you either memorize it while looping the table or search for it after filling the dp table . 
+
+### Resources
+- https://www.youtube.com/watch?v=BysNXJHzCEs
