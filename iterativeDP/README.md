@@ -4,6 +4,7 @@
  - [Coin Change 2](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/iterativeDP/coinChange2.cpp)
  - [Longest Common Subsequence (LCS)](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/iterativeDP/LCS.cpp)
  - [Longest Common Substring](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/iterativeDP/LCsubstring.cpp)
+ - [Longest Non Decreasing Subsequence](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/iterativeDP/LNDS.cpp)
 
 ## 0/1 Knapsack
 ![knapsakdp](https://user-images.githubusercontent.com/65967989/135391517-a4f99e85-e0a4-444d-b8fa-00f781575c74.jpg)
@@ -37,3 +38,11 @@
 
 ### Resources
 - https://www.youtube.com/watch?v=BysNXJHzCEs
+
+## LNDS
+![LNDS](https://user-images.githubusercontent.com/65967989/135592143-3960dbc6-48e7-43cb-ab4b-04425c910477.gif)
+
+**There're some similar** variations to this problem like the longest (increasing , decreasing or non increasing) subsequence .
+
+### Resources
+- https://www.youtube.com/watch?v=fV-TF4OvZpk
