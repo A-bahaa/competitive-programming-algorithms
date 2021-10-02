@@ -5,6 +5,7 @@
  - [Longest Common Subsequence (LCS)](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/iterativeDP/LCS.cpp)
  - [Longest Common Substring](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/iterativeDP/LCsubstring.cpp)
  - [Longest Non Decreasing Subsequence](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/iterativeDP/LNDS.cpp)
+ - [Tetrahedron](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/iterativeDP/Tetrahedron.cpp)
  - -Don't Forget the other problems
 
 ## 0/1 Knapsack
@@ -47,3 +48,16 @@
 
 ### Resources
 - https://www.youtube.com/watch?v=fV-TF4OvZpk
+
+## Tetrahedron
+Problem             |  Solution
+:-------------------------:|:-------------------------:
+![Screenshot 2021-10-02 153121](https://user-images.githubusercontent.com/65967989/135718673-50f87a9c-122a-4994-b9e8-8b90e6489090.jpg)  |  ![Webp net-gifmaker](https://user-images.githubusercontent.com/65967989/135718513-0a2dee4c-9267-4cad-b4f9-707f7ed9e97a.gif)
+
+**Recurrence relations :** `ways(top , n)` = 3*`ways(bottom , n-1)`   ,   `ways(bottom , n)` = 2*`ways(bottom , n-1)` + `ways(top , n-1)`
+
+**Base case :**            `ways(top , 0)` = 1   ,   `ways(bottom , 0)` = 0
+
+### Resources
+- https://www.youtube.com/watch?v=qQwQbD8ju2s
+
