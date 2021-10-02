@@ -5,6 +5,7 @@
  - [Longest Common Subsequence (LCS)](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/iterativeDP/LCS.cpp)
  - [Longest Common Substring](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/iterativeDP/LCsubstring.cpp)
  - [Longest Non Decreasing Subsequence](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/iterativeDP/LNDS.cpp)
+ - -Don't Forget the other problems
 
 ## 0/1 Knapsack
 ![knapsakdp](https://user-images.githubusercontent.com/65967989/135391517-a4f99e85-e0a4-444d-b8fa-00f781575c74.jpg)
