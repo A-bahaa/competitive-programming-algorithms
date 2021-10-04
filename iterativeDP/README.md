@@ -6,6 +6,7 @@
  - [Longest Common Substring](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/iterativeDP/LCsubstring.cpp)
  - [Longest Non Decreasing Subsequence](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/iterativeDP/LNDS.cpp)
  - [Tetrahedron](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/iterativeDP/Tetrahedron.cpp)
+ - [Edit Distance](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/iterativeDP/EditDistance.cpp)
  - -Don't Forget the other problems
 
 ## 0/1 Knapsack
@@ -60,4 +61,11 @@ Problem             |  Solution
 
 ### Resources
 - https://www.youtube.com/watch?v=qQwQbD8ju2s
+
+## Edit Distance
+![EditDistance](https://user-images.githubusercontent.com/65967989/135928834-acc2e426-7c1d-47f0-9457-103bc6ef43db.jpg)
+
+### Resources
+- https://www.youtube.com/watch?v=MiqoA-yF-0M
+- https://www.youtube.com/watch?v=We3YDTzNXEk
 
