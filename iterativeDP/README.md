@@ -7,6 +7,7 @@
  - [Longest Non Decreasing Subsequence](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/iterativeDP/LNDS.cpp)
  - [Tetrahedron](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/iterativeDP/Tetrahedron.cpp)
  - [Edit Distance](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/iterativeDP/EditDistance.cpp)
+ - [Longest Palindromic Subsequence](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/iterativeDP/LPSubsequence.cpp)
  - -Don't Forget the other problems
 
 ## 0/1 Knapsack
@@ -68,4 +69,10 @@ Problem             |  Solution
 ### Resources
 - https://www.youtube.com/watch?v=MiqoA-yF-0M
 - https://www.youtube.com/watch?v=We3YDTzNXEk
+
+## Longest Palindromic Subsequence
+![LPSubsequence](https://user-images.githubusercontent.com/65967989/135979535-19688cf8-12db-44e0-99e8-bb122b9734f6.jpg)
+
+### Resources
+- https://www.youtube.com/watch?v=_nCsPn7_OgI
 
