@@ -37,7 +37,7 @@ int main (){
     for(int i = 0; i<patt.size(); i++){
         // if it's equal the size of the original patt 
         if(pf[i] == iniSize){
-            cout<<i-iniSize-1<<' ';
+            cout<<i-(2*iniSize)<<' ';
         }
     }
     return 0;
