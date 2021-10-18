@@ -41,7 +41,8 @@ int query(int l, int r){
     
 
 
-    /* suppose we have this arr =  {5,-8,5,2,0,9,6,7,1} and the query q = min(1,7) ,the above implementation    *-----$-----* will get the length of the longest power-of-two ranges in the query length (that's because the table only holds the answer for the power-of-two ranges) then will return the answer in o(1) .*/
+    /* suppose we have this arr =  {5,-8,5,2,0,9,6,7,1} and the query q = min(1,7) ,
+    the above implementation           *-----$-----* will get the length of the longest power-of-two ranges in the query length (that's because the table only holds the answer for the power-of-two ranges) then will return the answer in o(1) .*/
 
 
     /*the below implementation tackles things differently , since the lenght of the query -just like any other number- is a composite os powers of 2 .. in this case 7 is a composite of 1+2+4 and we can get the answer to these sub-ranges from the table in O(1) so we can loop through these sub-ranges to get the final answer but that would be in a log2(l) , since there're log2(l) sub-ranges*/
