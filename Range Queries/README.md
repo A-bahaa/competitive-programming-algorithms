@@ -7,7 +7,7 @@
 ## Sparse Table
 Sparse table is a data structure. It often serves as a substitute for segment tree in case of **immutable data**.
 
-Say you have an array Arr and you want to perform some queries. Each query should compute function F over subarray [L, R]: F(ArrL, ArrL + 1, …, ArrR). With sparse table, you can do each query in `O(log(N))` (N is the size of Arr), with initial `O(N * log(N))` preprocessing.
+Say you have an array Arr and you want to perform some queries. Each query should compute function F over subarray [L, R]: F(ArrL, ArrL + 1, …, ArrR). With sparse table, you can do each query in `O(log(N))` ( in another implementation you can answer the query in `O(1)` ) (N is the size of Arr), with initial `O(N * log(N))` preprocessing.
 
 Sparse table can be applied if and only if:
 - Arr is immutable (i.e. queries do not change it).
