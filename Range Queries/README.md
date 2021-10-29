@@ -1,5 +1,8 @@
 # Content
 - [Sparse Table](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/Range%20Queries/SparseT.cpp)
+- [mo's Algo]
+- [Lowest Common Anscestor]
+- [Fenwick Tree aka Binary-Indexed-Tree](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/Range%20Queries/fenwick.cpp)
 
 
 
@@ -20,5 +23,28 @@ This what the sparse table looks like trying to solve a min-range query .
 
 ### Resources
 - https://www.youtube.com/watch?v=c5O7E_PDO4U
+
+## Fenwick Tree
+
+When to use Binary Indexed Tree?
+
+Before going for Binary Indexed tree to perform operations over range, one must confirm that the operation or the function is:
+
+Associative. i.e f(f(a, b), c) = f(a, f(b, c)) this is true even for seg-tree
+
+Has an inverse. eg:
+
+- addition has inverse subtraction (this example we have discussed)
+
+- Multiplication has inverse division
+
+- gcd() has no inverse, so we can’t use BIT to calculate range gcd’s
+
+- sum of matrices has inverse
+
+- product of matrices would have inverse if it is given that matrices are degenerate i.e. determinant of any matrix is not equal to 0
+
+### Resources
+- https://www.youtube.com/watch?v=uSFzHCZ4E-8
 
 
