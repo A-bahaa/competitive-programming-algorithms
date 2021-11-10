@@ -4,6 +4,7 @@
 - [BFS](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/Graph%20Traversal/BFS.cpp)
 - [directedAcyclic](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/Graph%20Traversal/directedAcyclic.cpp)
 - [undirectedAcyclic](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/Graph%20Traversal/udirectedAcyclic.cpp)
+- [Bipartiteness check](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/Graph%20Traversal/Bipartite.cpp)
 
 
 ## DFS
@@ -32,3 +33,14 @@ Another way to find out whether a graph contains a cycle or not is to simply cal
 
 #### Resources
 - https://www.youtube.com/watch?v=n_t0a_8H8VY
+
+### Bipartiteness check
+![BipartiteGraph_1000](https://user-images.githubusercontent.com/65967989/141159210-d2dc597d-3a59-479a-a5d1-047b1265c5d3.gif)
+
+A bipartite graph is a graph whose vertices can be divided into two disjoint sets so that every edge connects two vertices from different sets (i.e. there are no edges which connect vertices from the same set). These sets are usually called sides.
+
+#### Assumptions
+- The graph is undirected.
+- The graph contains no self-loops.
+
+There exists a theorem which claims that a graph is bipartite if and only if all its cycles have even length. However, in practice it's more convenient to use a different formulation of the definition: a graph is bipartite if and only if it is two-colorable.
