@@ -23,3 +23,8 @@ A graph is connected if there's a path between any two nodes of the graph . Thus
 For directed graphs there is the notion of strongly connected components, for which multiple algorithms are available, all slightly more complicated than a simple DFS.
 
 ### Cycle Detection
+
+The technique for cycle detection differs upon the type of the graph whether being directed or undirected . That's because by defintion any edge in an undirected graph is a cycle by itself so we can't use the same algo for both .
+
+#### Resources
+- https://www.youtube.com/watch?v=n_t0a_8H8VY
