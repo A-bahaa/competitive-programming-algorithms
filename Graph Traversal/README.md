@@ -18,6 +18,8 @@
 
 ### Connectivity Check
 
-A graph is connected if there's a path between any two nodes of the graph . Thus, we can just select an arbitrary node and run the traversing search from it and finding out if we can reach all the other nodes . In a similar way, we can find all connected components of a graph by iterating through the nodes and always starting a new DFS (BFS) if the current node doesn't belong to any component yet .
+A graph is connected if there's a path between any two nodes of the graph . Thus, we can just select an arbitrary node and run the traversing search from it and finding out if we can reach all the other nodes . In a similar way, we can find all connected components of an undirected graph by iterating through the nodes and always starting a new DFS (BFS) if the current node doesn't belong to any component yet .
+
+For directed graphs there is the notion of strongly connected components, for which multiple algorithms are available, all slightly more complicated than a simple DFS.
 
 ### Cycle Detection
