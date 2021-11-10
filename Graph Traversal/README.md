@@ -5,6 +5,7 @@
 - [directedAcyclic](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/Graph%20Traversal/directedAcyclic.cpp)
 - [undirectedAcyclic](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/Graph%20Traversal/udirectedAcyclic.cpp)
 - [Bipartiteness check](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/Graph%20Traversal/Bipartite.cpp)
+- [Topological Sort](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/Graph%20Traversal/topSort.cpp)
 
 
 ## DFS
@@ -44,3 +45,16 @@ A bipartite graph is a graph whose vertices can be divided into two disjoint set
 - The graph contains no self-loops.
 
 There exists a theorem which claims that a graph is bipartite if and only if all its cycles have even length. However, in practice it's more convenient to use a different formulation of the definition: a graph is bipartite if and only if it is two-colorable.
+
+### Topological Sort
+![d6be27e](https://user-images.githubusercontent.com/65967989/141207081-13c511bf-8ce5-4b94-b655-b8e7682b3abb.png)
+
+Topological sorting of vertices of a **Directed Acyclic Graph** is an ordering of the vertices `v1` , `v2` , ... `vn` in such a way, that if there is an edge directed towards vertex `vj`  from vertex `vi` , then `vi` comes before `vj` . For example consider the graph given upove:
+
+A topological sorting of this graph is:   1 2 3 4 5 .  
+There are multiple topological sorting possible for a graph. For the graph given above one another topological sorting is:  1 2 3 5 4 .
+
+By definition, all rooted trees have a topological ordering since they don't contain any cycles .  
+
+#### Resources
+- https://www.youtube.com/watch?v=ddTC4Zovtbc&t=1s
