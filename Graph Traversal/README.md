@@ -2,6 +2,8 @@
 
 - [DFS](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/Graph%20Traversal/DFS.cpp)
 - [BFS](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/Graph%20Traversal/BFS.cpp)
+- [directedAcyclic](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/Graph%20Traversal/directedAcyclic.cpp)
+- [undirectedAcyclic](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/Graph%20Traversal/udirectedAcyclic.cpp)
 
 
 ## DFS
@@ -25,6 +27,8 @@ For directed graphs there is the notion of strongly connected components, for wh
 ### Cycle Detection
 
 The technique for cycle detection differs upon the type of the graph whether being directed or undirected . That's because by defintion any edge in an undirected graph is a cycle by itself so we can't use the same algo for both .
+
+Another way to find out whether a graph contains a cycle or not is to simply calculate the number of nodes and edges in each component . If a component contains `c` nodes and no cycle, it must contains exactly `c-1` edges (so it has to be a tree) . If there are more edges , the component surly contains a cycle . 
 
 #### Resources
 - https://www.youtube.com/watch?v=n_t0a_8H8VY
