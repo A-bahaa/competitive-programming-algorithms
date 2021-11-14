@@ -6,6 +6,7 @@
 - [undirectedAcyclic](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/Graph%20Traversal/udirectedAcyclic.cpp)
 - [Bipartiteness check](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/Graph%20Traversal/Bipartite.cpp)
 - [Topological Sort](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/Graph%20Traversal/topSort.cpp)
+- [Tree Minimum Traverse](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/Graph%20Traversal/minForest.cpp)
 
 
 ## DFS
@@ -58,3 +59,8 @@ By definition, all rooted trees have a topological ordering since they don't con
 
 #### Resources
 - https://www.youtube.com/watch?v=ddTC4Zovtbc&t=1s
+
+### Tree minimum traverse
+![Inkedgo1_LI](https://user-images.githubusercontent.com/65967989/141689459-3625e7db-f12e-4ca7-856a-0080f35b60c5.jpg)
+
+If you need to traverse all leaves in a rooted tree with `E` edges starting from the root and ending in this root then it will cost you `2⋅E` (it doesn't depend on the traversal you choose, right?). If you stop at some leaf `n` because you've already visited all other leaves then it'll cost you `2⋅E−cost(n)`. So, to minimize the cost you need to choose your traversal to stop at the leaf n with maximal cost(n).
