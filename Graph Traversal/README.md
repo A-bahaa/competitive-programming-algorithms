@@ -65,3 +65,5 @@ By definition, all rooted trees have a topological ordering since they don't con
 ![Inkedgo1_LI](https://user-images.githubusercontent.com/65967989/141689459-3625e7db-f12e-4ca7-856a-0080f35b60c5.jpg)
 
 If you need to traverse all leaves in a rooted tree with `E` edges starting from the root and ending in this root then it will cost you `2⋅E` (it doesn't depend on the traversal you choose, right?). If you stop at some leaf `n` because you've already visited all other leaves then it'll cost you `2⋅E−cost(n)`. So, to minimize the cost you need to choose your traversal to stop at the leaf n with maximal cost(n).
+
+## Notes
