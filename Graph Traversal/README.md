@@ -8,7 +8,7 @@
 - [Topological Sort](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/Graph%20Traversal/topSort.cpp)
 - [Tree Minimum Traverse](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/Graph%20Traversal/minForest.cpp)
 - [Notes](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/Graph%20Traversal/README.md#notes)
-- [Good practice problems]()
+- [Good practice problems](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/Graph%20Traversal/README.md#good-practice-problems)
 
 
 ## DFS
