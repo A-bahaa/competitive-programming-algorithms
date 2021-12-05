@@ -7,6 +7,7 @@
 - [Bipartiteness check](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/Graph%20Traversal/Bipartite.cpp)
 - [Topological Sort](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/Graph%20Traversal/topSort.cpp)
 - [Tree Minimum Traverse](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/Graph%20Traversal/minForest.cpp)
+- [Notes]()
 
 
 ## DFS
