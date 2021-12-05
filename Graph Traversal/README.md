@@ -8,6 +8,7 @@
 - [Topological Sort](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/Graph%20Traversal/topSort.cpp)
 - [Tree Minimum Traverse](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/Graph%20Traversal/minForest.cpp)
 - [Notes](https://github.com/A-bahaa/competitive-programming-algorithms/blob/main/Graph%20Traversal/README.md#notes)
+- [Good practice problems]()
 
 
 ## DFS
@@ -67,3 +68,11 @@ By definition, all rooted trees have a topological ordering since they don't con
 If you need to traverse all leaves in a rooted tree with `E` edges starting from the root and ending in this root then it will cost you `2⋅E` (it doesn't depend on the traversal you choose, right?). If you stop at some leaf `n` because you've already visited all other leaves then it'll cost you `2⋅E−cost(n)`. So, to minimize the cost you need to choose your traversal to stop at the leaf n with maximal cost(n).
 
 ## Notes
+- If you want to traverse a tree you don't have to maintain a visited array , you can just check if the adjacent is your parent ( in this case continue ) or not ( in this case traverse more ) .
+- BFS can be used to find the shortest path if the cost of all edges is the same . 
+
+
+## Good practice problems
+- https://codeforces.com/problemset/problem/242/C
+- https://codeforces.com/problemset/problem/430/C
+
