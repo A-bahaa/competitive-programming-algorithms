@@ -76,4 +76,5 @@ If you need to traverse all leaves in a rooted tree with `E` edges starting from
 - https://codeforces.com/problemset/problem/242/C
 - https://codeforces.com/problemset/problem/430/C
 - spoj.com/problems/ESCJAILA/en/
+- https://codeforces.com/problemset/problem/1214/D
 
