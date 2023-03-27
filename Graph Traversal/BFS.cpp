@@ -7,6 +7,7 @@ const double PI = 3.141592653589793238;
 const int M = 1e9+7 , OO=0x3f3f3f3f; 
 
 vector<vi> adj;
+
 vector <bool> visited;
 
 void BFS (int s){
