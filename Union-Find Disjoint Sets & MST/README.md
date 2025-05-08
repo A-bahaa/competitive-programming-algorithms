@@ -15,6 +15,33 @@ Find: It determines in which subset a particular element is in and returns the r
 
 Union: It merges two different subsets into a single subset, and the representative of one set becomes representative of another.
 
+
+**Time Complexity of Union-Find Operations in Disjoint Set Union (DSU)**
+The time complexity of the union and find operations in a Disjoint Set Union (DSU) data structure, also known as a Union-Find data structure, is a crucial aspect of its efficiency. This complexity varies significantly based on the specific implementation and optimizations employed.
+
+**Without Optimizations:**
+
+In a naive implementation without any optimizations, both the union and find operations can have a worst-case time complexity of O(n), where n is the number of elements. This occurs when the tree-like structures representing the sets become skewed, essentially forming a linked list. In such scenarios, a find operation might need to traverse all n elements to reach the representative (root), and a union operation, which typically involves two find operations, would consequently also take O(n).
+
+**With Optimizations: Path Compression and Union by Rank/Size**
+
+To significantly improve performance, two primary optimizations are commonly used:
+
+**Path Compression:** During a find operation, this technique makes every node on the path from the queried element to the root point directly to the root. This flattens the tree structure, speeding up future find operations for elements in that path and their descendants.
+
+**Union by Rank or Union by Size:**
+
+Union by Rank: This heuristic always attaches the shorter tree to the root of the taller tree during a union operation. The "rank" is an upper bound on the height of a tree.
+Union by Size: This heuristic always attaches the tree with fewer elements to the root of the tree with more elements during a union operation.
+When both path compression and union by rank (or union by size) are implemented, the amortized time complexity for both union and find operations becomes nearly constant. It is expressed as O(α(n)), where α(n) is the inverse Ackermann function.
+
+The inverse Ackermann function, α(n), grows extremely slowly. For any practical value of n (even numbers far larger than the estimated number of atoms in the universe), α(n) is less than 5. Therefore, for all practical purposes, the time complexity with these optimizations is often considered to be effectively constant time, sometimes loosely referred to as O(1) on average per operation over a sequence of operations.
+
+**Complexity with Partial Optimizations:**
+
+Union by Rank/Size only (without Path Compression): The find operation has a worst-case time complexity of O(logn).
+Path Compression only (without Union by Rank/Size): For a sequence of m operations (unions and finds) on n elements, the total time can be O(mlogn). This makes the amortized cost of a find operation O(logn).
+
 ## MST intro
 
 What is a Spanning Tree?
